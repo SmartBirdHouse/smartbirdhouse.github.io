@@ -1,12 +1,28 @@
 import logo from './logo.svg';
 import './App.css';
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
+import Header from './Header.js';
+import Navbar from './Navbar';
+import Historia from './Sivut/historia';
+import Esittely from './Sivut/esittely';
+import Etusivu from './Sivut/etusivu';
 
-function App() {
+const App = () => {
   return (
+    <>
     <div>
-      <Testi/>
+      <Header/>
     </div>
-  );
+     {/* <Router>
+      <Navbar />
+      <Routes>
+        <Route exact path='/etusivu' component={Etusivu} />
+        <Route path='/historia' component={Historia} />
+        <Route path='/esittely' component={Esittely} />
+      </Routes>
+     </Router>*/}
+    </>
+  )
 }
 
 const Testi = () => {
