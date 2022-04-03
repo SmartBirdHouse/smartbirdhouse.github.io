@@ -10,9 +10,9 @@ const Etusivu = () => {
         height: '100vh'
       }}
     >
-      <h1>Tähän data ja video</h1>
+      <h2>Tähän data ja video</h2>
     </div>
   );
 };
   
-export default Etusivu;
+export default Etusivu

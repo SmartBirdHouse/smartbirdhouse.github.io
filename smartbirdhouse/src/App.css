@@ -36,3 +36,29 @@
     transform: rotate(360deg);
   }
 }
+
+.linkki {
+  color: #E2F2CC;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: coral;
+}
+
+li {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: inline;
+}
+
+.navigaatio {
+  background-color: #657B48;
+  margin: auto;
+  padding: 10px;
+  text-align: center;
+}
