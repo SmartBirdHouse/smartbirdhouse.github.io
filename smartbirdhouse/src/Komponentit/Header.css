@@ -1,0 +1,21 @@
+.Header {
+  display: flex;
+  padding: 1em;
+  background-color: #657B48;
+}
+
+h1 {
+    vertical-align: middle;
+    margin-bottom: 0;
+    color: #EDFBDA;
+}
+
+img {
+    height: 60px;
+    margin: 10px;
+}
+
+p {
+    margin: 0;
+    color: #E2F2CC;
+}

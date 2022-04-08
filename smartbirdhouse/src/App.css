@@ -46,7 +46,8 @@
 }
 
 li a:hover {
-  background-color: coral;
+  background-color: #C5CB91;
+  color: black;
 }
 
 li {
@@ -60,5 +61,85 @@ li {
   background-color: #657B48;
   margin: auto;
   padding: 10px;
+}
+
+.etusivu {
+}
+
+.video-responsive {
+  margin: auto;
+  width: 50%;
+  height: 300px;
   text-align: center;
+  padding: 20px;
+}
+
+.Tabs {
+  height: auto;
+  min-height: 400px;
+  margin: auto;
+  margin: 30px;
+  color: #E8F0F2;
+  border-top: 5px solid #C5CB91;
+  @media (max-width: 769px) {
+   padding: 2rem 0;
+  }
+ }
+
+ ul.tabnav {
+  /*width: 60%;
+  margin: 0 auto 2rem;
+  display: flex;
+  border-radius: 2rem;
+  background-color: #E2F2CC;
+  align-items: center;*/
+  justify-content: space-between;
+  padding-left: 0px;
+  padding-bottom: 25px;
+  @media (max-width: 768px) {
+    width: 90%;
+  }
+}
+ul.tabnav li {
+  width: 50%;
+  padding: 1rem;
+  list-style: none;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.7s;
+  color:black;
+}
+/*ul.tabnav li:first-child {
+  border-bottom-left-radius: 0;
+  /*border-top-left-radius: 2rem;
+  border-bottom-right-radius: 2rem;
+}
+ 
+ul.tabnav li:last-child {
+  border-bottom-right-radius: 2rem;
+  border-top-right-radius: 2rem;
+  border-bottom-left-radius: 2rem;
+}*/
+ul.tabnav li:hover {
+  background: #E2F2CC;
+}
+ul.tabnav li.active {
+  background: #C5CB91;
+  color: black;
+  border-bottom-right-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+}
+
+.ekaTab p,
+.tokaTab p,
+.kolmasTab p {
+  font-size: 2rem;
+  text-align: center;
+  color: black;
+}
+
+.esittely {
+  color: black;
+  margin: 10px 0 10px 0;
+  padding: 1em;
 }
