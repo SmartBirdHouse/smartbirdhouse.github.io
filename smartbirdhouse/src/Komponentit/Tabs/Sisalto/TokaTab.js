@@ -4,7 +4,7 @@ import Video from "../../Video";
 const TokaTab = () => {
   return (
     <div className="tokaTab">
-      <p>Second Tab!! Hurray!!</p>
+      <p className="pontonSisalto">Tähän toisen linnunpöntön ruuvidata</p>
       <Video videoId="rqcWAUfQUwY" />
     </div>
   );

@@ -9,7 +9,7 @@ const Header = () => {
             <h1>Älykäs Linnunpönttö</h1>
             <p>Seuraa lintujen elämää internetissä</p>
             </div>
-            <img src={logo}/>
+            {/*<img src={logo}/>*/}
         </div>
     )
 }

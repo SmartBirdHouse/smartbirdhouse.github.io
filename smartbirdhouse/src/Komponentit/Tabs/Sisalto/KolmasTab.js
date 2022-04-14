@@ -4,9 +4,9 @@ import Video from "../../Video";
 const KolmasTab = () => {
   return (
     <div className="kolmasTab">
-      <p>Third Tab!! Hurray!!</p>
+      <p className="pontonSisalto">Tähän kolmannen pöntön ruuvidata</p>
       <div>
-        <Video videoId="1vB9cwidogA" />
+        <Video videoId="w7ejDZ8SWv8" />
      </div>
     </div>
   );

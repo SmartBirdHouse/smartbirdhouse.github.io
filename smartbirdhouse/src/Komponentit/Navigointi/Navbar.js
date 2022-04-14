@@ -21,9 +21,6 @@ const Navbar = () => {
                 <Link to="/" className='linkki'>Etusivu</Link>
             </li>
             <li>
-                <Link to="/historia" className='linkki'>Historia</Link>
-            </li>
-            <li>
                 <Link to="/esittely" className='linkki'>Esittely</Link>
             </li>
         </div>

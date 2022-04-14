@@ -1,13 +1,13 @@
 import React from "react";
 
-const TabNavItem = ({ id, title, activeTab, setActiveTab }) => {
+const TabNavItem = ({ id, title, aktiivinenTab, aktivoiTab }) => {
  
  const handleClick = () => {
-   setActiveTab(id);
+   aktivoiTab(id);
  };
  
 return (
-   <li onClick={handleClick} className={activeTab === id ? "active" : ""}>
+   <li onClick={handleClick} className={aktiivinenTab === id ? "active" : ""}>
      { title }
    </li>
  );

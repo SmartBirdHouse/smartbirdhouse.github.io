@@ -1,13 +1,13 @@
 .Header {
   display: flex;
   padding: 1em;
-  background-color: #657B48;
+  background-color: #024C21;
 }
 
 h1 {
     vertical-align: middle;
     margin-bottom: 0;
-    color: #EDFBDA;
+    color: white;
 }
 
 img {
@@ -17,5 +17,5 @@ img {
 
 p {
     margin: 0;
-    color: #E2F2CC;
+    color: white;
 }

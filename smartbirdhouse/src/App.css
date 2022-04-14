@@ -38,7 +38,7 @@
 }
 
 .linkki {
-  color: #E2F2CC;
+  color: #E2FAF0;
   padding: 10px;
   padding-left: 20px;
   padding-right: 20px;
@@ -46,7 +46,7 @@
 }
 
 li a:hover {
-  background-color: #C5CB91;
+  background-color: #05C154;
   color: black;
 }
 
@@ -58,7 +58,7 @@ li {
 }
 
 .navigaatio {
-  background-color: #657B48;
+  background-color: #024C21;
   margin: auto;
   padding: 10px;
 }
@@ -80,7 +80,7 @@ li {
   margin: auto;
   margin: 30px;
   color: #E8F0F2;
-  border-top: 5px solid #C5CB91;
+  border-top: 5px solid #525E57;
   @media (max-width: 769px) {
    padding: 2rem 0;
   }
@@ -121,11 +121,11 @@ ul.tabnav li:last-child {
   border-bottom-left-radius: 2rem;
 }*/
 ul.tabnav li:hover {
-  background: #E2F2CC;
+  background: #C3E1D0;
 }
 ul.tabnav li.active {
-  background: #C5CB91;
-  color: black;
+  background: #525E57;
+  color: white;
   border-bottom-right-radius: 1rem;
   border-bottom-left-radius: 1rem;
 }
@@ -142,4 +142,41 @@ ul.tabnav li.active {
   color: black;
   margin: 10px 0 10px 0;
   padding: 1em;
+}
+
+.pontonSisalto {
+
+}
+
+.esittelyteksti {
+  padding: 20px;
+}
+
+.esittelyteksti p {
+  color: black;
+}
+
+.laitteisto {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.laitteisto a {
+  text-decoration: none;
+  color: #024C21;
+}
+
+.laitteisto div {
+  width: 33%;
+  height: 300px;
+  padding: 30px;
+}
+
+.esittelyteksti img {
+  width: 200px;
+  height: auto;
+  vertical-align: text-top;
+  margin: 20px;
 }

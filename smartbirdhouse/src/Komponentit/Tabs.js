@@ -19,19 +19,19 @@ const Tabs = () => {
   return (
     <div className="Tabs">
         <ul className="tabnav">
-            <TabNavItem title="Linnunpönttö 1" id="tab1" activeTab={aktiivinenTab} setActiveTab={aktivoiTab}/>
-            <TabNavItem title="Linnunpönttö 2" id="tab2" activeTab={aktiivinenTab} setActiveTab={aktivoiTab}/>
-            <TabNavItem title="Linnunpönttö 3" id="tab3" activeTab={aktiivinenTab} setActiveTab={aktivoiTab}/>
+            <TabNavItem title="Linnunpönttö 1" id="tab1" aktiivinenTab={aktiivinenTab} aktivoiTab={aktivoiTab}/>
+            <TabNavItem title="Linnunpönttö 2" id="tab2" aktiivinenTab={aktiivinenTab} aktivoiTab={aktivoiTab}/>
+            <TabNavItem title="Linnunpönttö 3" id="tab3" aktiivinenTab={aktiivinenTab} aktivoiTab={aktivoiTab}/>
         </ul>
 
         <div className="outlet">
-            <TabContent id="tab1" activeTab={aktiivinenTab}>
+            <TabContent id="tab1" aktiivinenTab={aktiivinenTab}>
                 <EkaTab/>
             </TabContent>
-            <TabContent id="tab2" activeTab={aktiivinenTab}>
+            <TabContent id="tab2" aktiivinenTab={aktiivinenTab}>
                 <TokaTab/>
             </TabContent>
-            <TabContent id="tab3" activeTab={aktiivinenTab}>
+            <TabContent id="tab3" aktiivinenTab={aktiivinenTab}>
                 <KolmasTab />
             </TabContent>
       </div>

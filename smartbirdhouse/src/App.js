@@ -2,7 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
 import Header from './Komponentit/Header.js';
-import Navbar from './Komponentit/Navbar.js';
+import Navbar from './Komponentit/Navigointi/Navbar';
 import Historia from './Sivut/historia';
 import Esittely from './Sivut/esittely';
 import Etusivu from './Sivut/etusivu.js';
