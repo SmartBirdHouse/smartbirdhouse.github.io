@@ -1,0 +1,15 @@
+{"ruuvidata":[{
+	"dataFormat": 5,
+	"rssi": -43,
+	"temperature": 22.71,
+	"humidity": 35.88,
+	"pressure": 115535,
+	"accelerationX": 48,
+	"accelerationY": 100,
+	"accelerationZ": 1020,
+	"battery": 2988,
+	"txPower": 4,
+	"movementCounter": 117,
+	"measurementSequenceNumber": 7405,
+	"mac": "CB:76:CA:06:6E:2F"
+}]}

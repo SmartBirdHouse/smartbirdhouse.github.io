@@ -180,3 +180,8 @@ ul.tabnav li.active {
   vertical-align: text-top;
   margin: 20px;
 }
+
+.ponttodata {
+  color: black;
+  text-align: center;
+}

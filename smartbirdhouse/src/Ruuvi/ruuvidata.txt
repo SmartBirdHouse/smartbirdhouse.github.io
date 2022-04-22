@@ -1,0 +1,16 @@
+Got data from RuuviTag cb76ca066e2f:
+{
+	"dataFormat": 5,
+	"rssi": -35,
+	"temperature": 22.635,
+	"humidity": 35.98,
+	"pressure": 115535,
+	"accelerationX": 44,
+	"accelerationY": 108,
+	"accelerationZ": 1028,
+	"battery": 2967,
+	"txPower": 4,
+	"movementCounter": 114,
+	"measurementSequenceNumber": 5391,
+	"mac": "CB:76:CA:06:6E:2F"
+}
