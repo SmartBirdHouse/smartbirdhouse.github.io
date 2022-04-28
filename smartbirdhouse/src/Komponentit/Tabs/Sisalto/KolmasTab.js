@@ -1,10 +1,12 @@
 import React from "react";
 import Video from "../../Video";
 
+//Komponentti vastaa kolmannen välilehden sisällöstä.
+
 const KolmasTab = () => {
   return (
     <div className="kolmasTab">
-      <p className="pontonSisalto">Tähän kolmannen pöntön ruuvidata</p>
+      <ul className="ponttodata"></ul>
       <div>
         <Video videoId="w7ejDZ8SWv8" />
      </div>

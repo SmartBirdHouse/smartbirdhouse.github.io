@@ -68,10 +68,10 @@ li {
 
 .video-responsive {
   margin: auto;
-  width: 50%;
-  height: 300px;
+  width: 60%;
+  height: 250px;
   text-align: center;
-  padding: 20px;
+  float: right;
 }
 
 .Tabs {
@@ -181,7 +181,28 @@ ul.tabnav li.active {
   margin: 20px;
 }
 
+.ekaTab,
+.tokaTab,
+.kolmasTab {
+  width: 80%;
+  margin: auto;
+}
+
 .ponttodata {
   color: black;
   text-align: center;
+  width: 30%;
+  margin: auto;
+  background-color:#C3E1D0 ;
+  padding: 20px;
+  float: left;
+  height: 210px;
+}
+
+.dataNimi {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.data {
 }

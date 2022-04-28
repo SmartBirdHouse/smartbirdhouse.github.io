@@ -4,6 +4,8 @@ import raspi from './raspberry.png'
 import kamera from './raspberry_camera.png'
 import ruuvi from './ruuvitag.png'
 
+//Komponentti renderöi esittely-sivun sisällön
+
 const Esittely = () => {
     return (
         <div className='esittelyteksti'>

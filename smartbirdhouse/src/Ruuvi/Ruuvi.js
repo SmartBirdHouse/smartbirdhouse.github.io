@@ -1,3 +1,7 @@
+//Haetaan bluetoothilla ruuvitag ja tallennetaan sen tuottama data
+//JSON-muodossa tiedostoon. 
+//Skripti käynnistetään käskyllä 'node Ruuvi.js'
+
 const ruuvi = require('node-ruuvitag');
  
 ruuvi.on('found', tag => {

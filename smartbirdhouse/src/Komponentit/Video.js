@@ -1,5 +1,8 @@
 import React from 'react';
 
+//Komponentti upottaa käyttöliittymään videon hakemalla sen SRC:nä annetusta osoitteesta
+//propsina saamansa id:n perusteella. 
+
 const Video = ({videoId}) => {
     return (
         <div className="video-responsive">

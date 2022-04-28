@@ -5,25 +5,21 @@ import KolmasTab from "./Tabs/Sisalto/KolmasTab";
 import TabNavItem from "./Tabs/TabNavItem";
 import TabContent from "./Tabs/TabContent";
 
+//Komponentti luo välilehdet sekä liittää niihin toiminnallisuudet,
+//sekä pitää kirjaa aktiivisesta välilehdestä.
 const Tabs = () => {
     const [aktiivinenTab, aktivoiTab] = useState("tab1");
 
-    {/*const avaaTab1 = () => {
-        aktivoiTab("tab1");
-    }
-
-    const avaaTab2 = () => {
-        aktivoiTab("tab2");
-    }*/}
-
   return (
     <div className="Tabs">
+        {/*Luodaan kaikki välilehdet ja lähetetään propseina kullekin oleelliset tiedot*/}
         <ul className="tabnav">
             <TabNavItem title="Linnunpönttö 1" id="tab1" aktiivinenTab={aktiivinenTab} aktivoiTab={aktivoiTab}/>
             <TabNavItem title="Linnunpönttö 2" id="tab2" aktiivinenTab={aktiivinenTab} aktivoiTab={aktivoiTab}/>
             <TabNavItem title="Linnunpönttö 3" id="tab3" aktiivinenTab={aktiivinenTab} aktivoiTab={aktivoiTab}/>
         </ul>
 
+        {/*Jokaisen välilehden taakse tallennetaan sille kuuluva komponentti*/}
         <div className="outlet">
             <TabContent id="tab1" aktiivinenTab={aktiivinenTab}>
                 <EkaTab/>

@@ -1,7 +1,8 @@
 import React from 'react';
-import Video from '../Komponentit/Video';
 import '../App.css'
 import Tabs from '../Komponentit/Tabs';
+
+//Komponentti renderöi etusivun sisällön ja kutsuu Tabs-komponenttia.
   
 const Etusivu = () => {
   return (

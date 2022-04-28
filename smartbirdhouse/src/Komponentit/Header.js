@@ -1,6 +1,7 @@
 import React from 'react'
-import logo from '../birdhouse.png'
 import './Header.css'
+
+//Komponentti renderöi otsikkopalkin
 
 const Header = () => {
     return (
@@ -9,7 +10,6 @@ const Header = () => {
             <h1>Älykäs Linnunpönttö</h1>
             <p>Seuraa lintujen elämää internetissä</p>
             </div>
-            {/*<img src={logo}/>*/}
         </div>
     )
 }
