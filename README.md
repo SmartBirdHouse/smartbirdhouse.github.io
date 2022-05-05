@@ -6,9 +6,13 @@ Linnunpönttöön asennetussa Raspberry Pi:ssä käytettävä ohjelmisto, joka k
 Asennusohjeet
 
 Tarvittavat ohjelmistot:
-Node 
+
+Node
+
 npm
+
 Visual Studio Code
+
 Raspivid
 
 
