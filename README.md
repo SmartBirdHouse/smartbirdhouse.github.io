@@ -3,7 +3,7 @@ Digitaalinen Linnunpönttö
 Linnunpönttöön asennetussa Raspberry Pi:ssä käytettävä ohjelmisto, joka kerää ilmasto dataa RuuviTag laitteen avulla pöntöstä jossa on myös youtube livestreamiin valmiit upotukset.
 
 
-Asennusohjeet
+**Asennusohjeet**
 
 Tarvittavat ohjelmistot:
 
@@ -16,7 +16,7 @@ Visual Studio Code
 Raspivid
 
 
-Käyttöohjeet
+**Käyttöohjeet**
 
 Ensin hae projekti github repositoriosta ja aja komento npm install.
 
@@ -55,7 +55,7 @@ Sen jälkeen avataan kolmas erillinen terminaali projektin juuren missä  ja sy�
 Sivusto käynnistyy ja ensimmäisellä välilehdellä vihreällä alueella näkyy ruuvidatan mittaustiedot
 
 
-Youtube streamaus ohjeet
+**Youtube streamaus ohjeet**
 
 Saadaksesi streamin näkyviin, täytyy ensimmäiseksi tehdä YouTube-tili. Tähän löydät erinomaiset ohjeet seuraavasta linkistä.
 
